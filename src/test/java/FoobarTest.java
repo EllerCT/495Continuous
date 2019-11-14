@@ -14,4 +14,9 @@ public class FoobarTest {
         Foobar foo = new Foobar();
         Assertions.assertNotEquals(4, foo.doStuff(2));
     }
+
+    @Test
+    void wrong(){
+        Assertions.assertTrue(false);
+    }
 }
